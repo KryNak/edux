@@ -10,6 +10,9 @@ There are two ways to run the application :  using `mvn spring-boot:run` or by r
 You can use any IDE of your preference,but we suggest Eclipse or Intellij IDEA.
 Below are the configuration details to start the project using a `spring-boot:run` command. Both Eclipse and Intellij IDEA are covered.
 
+## Setup
+Remember to add postgresql data source url in application.properties.
+
 #### Eclipse
 - Right click on a project folder and select `Run As` --> `Maven build..` . After that a configuration window is opened.
 - In the window set the value of the **Goals** field to `spring-boot:run` 
